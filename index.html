@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>الصفحة الشخصية - عمر وليد</title>
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      background: linear-gradient(135deg, #6b8ce3, #88b1f7);
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .profile-card {
+      background-color: rgba(0,0,0,0.6);
+      padding: 30px 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      max-width: 400px;
+      text-align: center;
+    }
+    .profile-card img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid #a2c0ff;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 32px;
+      color: #f0f7ff;
+      margin-bottom: 10px;
+    }
+    p.bio {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 25px;
+      color: #d6dcf8;
+    }
+    h3 {
+      margin-bottom: 10px;
+      border-bottom: 2px solid #a2c0ff;
+      display: inline-block;
+      padding-bottom: 4px;
+      font-weight: normal;
+    }
+    ul.skills {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 30px;
+      color: #cbd6ff;
+      text-align: left;
+    }
+    ul.skills li {
+      background-color: #4e6cef;
+      margin: 6px 0;
+      padding: 8px 12px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    button {
+      background-color: #a2c0ff;
+      border: none;
+      padding: 12px 28px;
+      font-size: 16px;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      color: #1a2b52;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(162, 192, 255, 0.6);
+    }
+    button:hover {
+      background-color: #819bdc;
+    }
+    .contact-info {
+      margin-top: 25px;
+      font-size: 14px;
+      color: #cbd6ff;
+      text-align: left;
+    }
+    .contact-info p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-card">
+    <img src="111.jpg" alt="صورة عمر وليد" />
+    <h1>عمر وليد فريد عبده</h1>
+    <p class="bio">أنا مطور مواقع مبتدئ مهتم بتعلم HTML، CSS، وJavaScript. أسعى لبناء مواقع جميلة وعملية تساعد المستخدمين.</p>
+    
+    <h3>المهارات</h3>
+    <ul class="skills">
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>تصميم واجهات المستخدم</li>
+      <li>تعلم مستمر وتطوير الذات</li>
+    </ul>
+    
+    <button onclick="greet()">قل مرحباً!</button>
+    
+    <div class="contact-info">
+      <p>📞 الهاتف: 01279976962</p>
+      <p>✉️ البريد الإلكتروني: bdhmr7683@gmail.com</p>
+      <p>📍 الموقع: مصر</p>
+    </div>
+  </div>
+
+  <script>
+    function greet() {
+      alert("مرحباً بك في صفحتي الشخصية! شكراً لزيارتك.");
+    }
+  </script>
+
+</body>
+</html>
